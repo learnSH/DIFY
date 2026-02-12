@@ -856,7 +856,7 @@ services:
 
   # The PostgreSQL database.
   db_postgres:
-    image: postgres:15-alpine
+    image: postgres:14
     profiles:
       - postgresql
     restart: always
@@ -893,7 +893,7 @@ services:
 
   # The mysql database.
   db_mysql:
-    image: mysql:8.0
+    image: 172.21.250.247:10001/base/mysql:8032
     profiles:
       - mysql
     restart: always
@@ -923,7 +923,7 @@ services:
 
   # The redis cache.
   redis:
-    image: redis:6-alpine
+    image: 172.21.250.247:10001/base/redis:6.2.7
     restart: always
     environment:
       REDISCLI_AUTH: ${REDIS_PASSWORD:-difyai123456}
@@ -1405,7 +1405,7 @@ services:
 
   minio:
     container_name: milvus-minio
-    image: minio/minio:RELEASE.2023-03-20T20-16-18Z
+    image: 172.21.250.247:10001/base/minio/minio:20241218cpuv1
     profiles:
       - milvus
     environment:
@@ -1538,7 +1538,7 @@ services:
   # https://www.elastic.co/guide/en/elasticsearch/reference/current/settings.html
   # https://www.elastic.co/guide/en/elasticsearch/reference/current/docker.html#docker-prod-prerequisites
   elasticsearch:
-    image: docker.elastic.co/elasticsearch/elasticsearch:8.14.3
+    image: 172.21.250.247:10001/base/elasticsearch:8.17.3
     container_name: elasticsearch
     profiles:
       - elasticsearch
