@@ -28,7 +28,7 @@ dependencies = [
     "google-auth-httplib2==0.2.0",
     "google-cloud-aiplatform==1.49.0",
     "googleapis-common-protos==1.63.0",
-    "gunicorn~=23.0.0",
+    "gunicorn~=25.0.3",
     "httpx[socks]~=0.27.0",
     "jieba==0.42.1",
     "json-repair>=0.55.1",
