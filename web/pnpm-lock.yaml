@@ -235,8 +235,8 @@ importers:
         specifier: 1.2.1
         version: 1.2.1
       lexical:
-        specifier: 0.38.2
-        version: 0.38.2
+        specifier: 0.41.0
+        version: 0.41.0
       mermaid:
         specifier: 11.11.0
         version: 11.11.0
@@ -2798,7 +2798,7 @@ packages:
         optional: true
 
   '@stylistic/eslint-plugin@https://pkg.pr.new/@stylistic/eslint-plugin@258f9d8':
-    resolution: {integrity: sha512-Yisv+b7hdYyFLAc3/nR4eAqcdhS+UKNwNxPedEL3+CaBEKOIN0kZPmSc6uQsXyMxb7IlhfujbYqu6eBm7KVbWw==, tarball: https://pkg.pr.new/@stylistic/eslint-plugin@258f9d8}
+    resolution: {tarball: https://pkg.pr.new/@stylistic/eslint-plugin@258f9d8}
     version: 5.9.0
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
@@ -5604,6 +5604,9 @@ packages:
 
   lexical@0.39.0:
     resolution: {integrity: sha512-lpLv7MEJH5QDujEDlYqettL3ATVtNYjqyimzqgrm0RvCm3AO9WXSdsgTxuN7IAZRu88xkxCDeYubeUf4mNZVdg==}
+
+  lexical@0.41.0:
+    resolution: {integrity: sha512-pNIm5+n+hVnJHB9gYPDYsIO5Y59dNaDU9rJmPPsfqQhP2ojKFnUoPbcRnrI9FJLXB14sSumcY8LUw7Sq70TZqA==}
 
   lib0@0.2.117:
     resolution: {integrity: sha512-DeXj9X5xDCjgKLU/7RR+/HQEVzuuEUiwldwOGsHK/sfAfELGWEyTcf0x+uOvCvK3O2zPmZePXWL85vtia6GyZw==}
@@ -12119,7 +12122,7 @@ snapshots:
   esast-util-from-js@2.0.1:
     dependencies:
       '@types/estree-jsx': 1.0.5
-      acorn: 8.15.0
+      acorn: 8.16.0
       esast-util-from-estree: 2.0.0
       vfile-message: 4.0.3
 
@@ -13446,6 +13449,8 @@ snapshots:
   lexical@0.38.2: {}
 
   lexical@0.39.0: {}
+
+  lexical@0.41.0: {}
 
   lib0@0.2.117:
     dependencies:
