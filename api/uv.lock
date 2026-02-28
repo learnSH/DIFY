@@ -6728,16 +6728,16 @@ wheels = [
 
 [[package]]
 name = "types-tensorflow"
-version = "2.18.0.20251008"
+version = "2.18.0.20260224"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "numpy" },
     { name = "types-protobuf" },
     { name = "types-requests" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/0d/0a/13bde03fb5a23faaadcca2d6914f865e444334133902310ea05e6ade780c/types_tensorflow-2.18.0.20251008.tar.gz", hash = "sha256:8db03d4dd391a362e2ea796ffdbccb03c082127606d4d852edb7ed9504745933", size = 257550, upload-time = "2025-10-08T02:51:51.104Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/af/cb/4914c2fbc1cf8a8d1ef2a7c727bb6f694879be85edeee880a0c88e696af8/types_tensorflow-2.18.0.20260224.tar.gz", hash = "sha256:9b0ccc91c79c88791e43d3f80d6c879748fa0361409c5ff23c7ffe3709be00f2", size = 258786, upload-time = "2026-02-24T04:06:45.613Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/66/cc/e50e49db621b0cf03c1f3d10be47389de41a02dc9924c3a83a9c1a55bf28/types_tensorflow-2.18.0.20251008-py3-none-any.whl", hash = "sha256:d6b0dd4d81ac6d9c5af803ebcc8ce0f65c5850c063e8b9789dc828898944b5f4", size = 329023, upload-time = "2025-10-08T02:51:50.024Z" },
+    { url = "https://files.pythonhosted.org/packages/d4/1d/a1c3c60f0eb1a204500dbdc66e3d18aafabc86ad07a8eca71ea05bc8c5a8/types_tensorflow-2.18.0.20260224-py3-none-any.whl", hash = "sha256:6a25f5f41f3e06f28c1f65c6e09f484d4ba0031d6d8df83a39df9d890245eefc", size = 329746, upload-time = "2026-02-24T04:06:44.4Z" },
 ]
 
 [[package]]
